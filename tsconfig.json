@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"checkJs": true,
+		"allowJs": true,
+		"target": "ES3",
+		"sourceMap": true,
+		"charset": "utf-16",
+		"module": "commonJS",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"strictFunctionTypes": true,
+		"outDir": ".\\public\\lib\\js",
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*", "src/finance_pb.js"]
+}
